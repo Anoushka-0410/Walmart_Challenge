@@ -1,0 +1,17 @@
+[
+  {
+    "itemid": 1,
+    "itemname": "Apple",
+    "quantity": 50
+  },
+  {
+    "itemid": 2,
+    "itemname": "Banana",
+    "quantity": 30
+  },
+  {
+    "itemid": 3,
+    "itemname": "Orange",
+    "quantity": 20
+  }
+]
