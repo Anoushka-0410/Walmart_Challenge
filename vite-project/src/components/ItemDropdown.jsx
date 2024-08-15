@@ -30,6 +30,9 @@ function ItemDropdown() {
         if (item.itemid === selectedItem.itemid) {
           if (item.quantity - selectedQuantity >= 0) {
             return { ...item, quantity: item.quantity - selectedQuantity };
+          } else if (item.quantity < selectedQuantity) {
+            alert(`Requested quantity exceeds available stock!`);
+            return { ...item, quantity: item.quantity };
           } else {
             return { ...item, quantity: 0 };
           }
